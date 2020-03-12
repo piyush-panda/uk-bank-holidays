@@ -1,0 +1,27 @@
+{
+  "name": "uk-bank-holidays",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sls offline --useSeparateProcesses --port 3001",
+    "test": "mocha --opts mocha.opts",
+    "deploy": "sls deploy -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "serverless-http": "^2.3.2",
+    "serverless-offline": "^5.12.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv-flow": "^3.1.0",
+    "mocha": "^7.1.0"
+  }
+}
